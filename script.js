@@ -139,16 +139,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 7. Typed.js Setup
-    if (document.querySelector('.typed-text') && typeof Typed !== 'undefined') {
-        new Typed('.typed-text', {
-            strings: ['digital solutions.', 'interactive UIs.', 'scalable backends.'],
-            typeSpeed: 50,
-            backSpeed: 30,
-            backDelay: 2000,
-            loop: true
-        });
-    }
     // 8. Nav Link Highlight on Scroll
     const sections = document.querySelectorAll('section');
     const navItems = document.querySelectorAll('.nav-links a');
