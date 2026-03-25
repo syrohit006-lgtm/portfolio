@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Rohit Singh Yadav, an aspiring software engineer specializing in algorithms, responsive interfaces, and scalable solutions.">
+    <title>Rohit Singh Yadav | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Top Progress Bar -->
+    <div id="scroll-progress"></div>
+    
+    <!-- Custom Cursor (Desktop only) -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">RSY<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <div class="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-content-wrapper fade-in">
+            <div class="hero-text">
+                <h3 class="subtitle fade-in">Hi, my name is</h3>
+                <h1 class="title fade-in delay-1">Rohit Singh Yadav</h1>
+                <h2 class="role fade-in delay-2">I build <span class="typed-text"></span></h2>
+                <p class="description fade-in delay-2">
+                    I'm an aspiring software engineer specializing in building exceptional digital experiences. Based in
+                    India, I'm passionate about algorithms, responsive interfaces, and continuous learning.
+                </p>
+                <div class="hero-actions fade-in delay-4">
+                    <a href="#projects" class="btn btn-primary">Check out my work</a>
+                    <a href="cv0000.pdf" class="btn btn-outline" download>Download CV</a>
+                    <div class="hero-socials">
+                        <a href="https://www.linkedin.com/in/rohit-singh-yadav-8b2808297/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/syrohit006-lgtmxx" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image fade-in delay-4">
+                <div class="image-wrapper">
+                    <img src="formalrohit1.jpg" alt="Rohit Singh Yadav">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title reveal"><span>01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>Hello! My name is Rohit and I enjoy creating things that live on the internet. My interest in
+                        software engineering spans across algorithms, scalable architectures, and seamless user
+                        interfaces. I am currently pursuing my B.Tech in CSE at Lovely Professional University.</p>
+                    <p>I am a detail-oriented problem solver with strong analytical skills, effective time management,
+                        and a passion for teamwork. I continually strive to improve and take on new challenges.</p>
+                    <p class="looking-for-text"><strong>Currently seeking internship and full-time opportunities in software development.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title reveal"><span>02.</span> Technical & Soft Skills</h2>
+            <div class="skills-container reveal delay-1">
+                <p class="skills-desc">Here are a few technologies and skills I've been working with recently to build scalable and responsive applications:</p>
+                <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4><i class="fas fa-code"></i> Languages</h4>
+                            <div class="skill-tags">
+                                <span>C++</span><span>Java</span><span>C</span><span>Python</span><span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4><i class="fas fa-layer-group"></i> Frameworks & Libs</h4>
+                            <div class="skill-tags">
+                                <span>HTML</span><span>CSS</span><span>React</span><span>Node.js</span><span>Express</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4><i class="fas fa-tools"></i> Tools & Platforms</h4>
+                            <div class="skill-tags">
+                                <span>MySQL</span><span>Git</span><span>PowerBI</span><span>Excel</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4><i class="fas fa-users"></i> Soft Skills</h4>
+                            <div class="skill-tags">
+                                <span>Problem Solving</span><span>Teamwork</span><span>Time Management</span><span>Communication</span><span>Analytical Skills</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title reveal"><span>03.</span> Some Things I've Built</h2>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=600&auto=format&fit=crop" alt="Algorithm Visualizer Preview">
+                    </div>
+                    <div class="project-content">
+                        <p class="project-overline">Featured Project</p>
+                        <h3 class="project-title">Sorting Algorithm Visualizer</h3>
+                        <p class="project-date"><i class="far fa-calendar-alt"></i> Jul 2025</p>
+                        <ul class="project-description">
+                            <li>Designed and built a fully functional website with integrated front-end and back-end
+                                features.</li>
+                            <li>Implemented core algorithms (bubbleSort, quickSort, mergeSort) using async/await for
+                                step-by-step visualization.</li>
+                            <li>Engineered dynamic UI for real-time manipulation of array size and visualization speed
+                                via sliders.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/syrohit006-lgtmxx" aria-label="GitHub Link"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://syrohit006-lgtmxx.github.io/Algorithm-Visualizer/" aria-label="External Link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=600&auto=format&fit=crop" alt="Bill Management System Preview">
+                    </div>
+                    <div class="project-content">
+                        <p class="project-overline">Featured Project</p>
+                        <h3 class="project-title">Supermarket Bill Management System</h3>
+                        <p class="project-date"><i class="far fa-calendar-alt"></i> Mar 2023</p>
+                        <ul class="project-description">
+                            <li>Developed a comprehensive Bill Management System utilizing data-driven logic to improve
+                                billing efficiency.</li>
+                            <li>Created a user-friendly system experience for seamless billing operations.</li>
+                            <li>Managed continuous data streams effectively to track transaction performances securely.
+                            </li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span><span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/syrohit006-lgtmxx" aria-label="GitHub Link"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title reveal"><span>04.</span> Education & Certifications</h2>
+
+            <div class="timeline-container">
+                <!-- Education -->
+                <h3 class="timeline-heading reveal"><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2023 - Present</div>
+                        <h4 class="timeline-title">Bachelor of Technology - Computer Science and Engineering</h4>
+                        <h5 class="timeline-subtitle">Lovely Professional University, Punjab, India</h5>
+                        <p class="timeline-desc">CGPA: 7.20</p>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jun 2022 - Apr 2023</div>
+                        <h4 class="timeline-title">Intermediate</h4>
+                        <h5 class="timeline-subtitle">Navy Children School, Vishakhapatnam, AP</h5>
+                        <p class="timeline-desc">Percentage: 84.4%</p>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jun 2020 - Mar 2021</div>
+                        <h4 class="timeline-title">Matriculation</h4>
+                        <h5 class="timeline-subtitle">Navy Children School, Vishakhapatnam, AP</h5>
+                        <p class="timeline-desc">Percentage: 83.2%</p>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <h3 class="timeline-heading reveal"><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jun 2025</div>
+                        <h4 class="timeline-title">Summer Training - CodeQuest: DSA Bootcamp</h4>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Oct 2024</div>
+                        <h4 class="timeline-title">The Bits and Bytes of Computer Networking</h4>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Oct 2024</div>
+                        <h4 class="timeline-title">Object Oriented Programming</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content reveal">
+                <h2 class="section-title"><span>05.</span> What's Next?</h2>
+                <h3 class="contact-heading">Get In Touch</h3>
+                <p class="contact-desc">My inbox is always open. Whether you have a question or just want to network and
+                    say hi, I'll try my best to get back to you!</p>
+
+                <div class="contact-grid-modern">
+                    <div class="contact-info-block">
+                        <a href="mailto:syrohitoo5@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>syrohitoo5@gmail.com</span>
+                        </a>
+                        <a href="tel:+916302839259" class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+91-6302839259</span>
+                        </a>
+                        <div class="social-links">
+                            <a href="https://github.com/syrohit006-lgtmxx" target="_blank" aria-label="GitHub"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/rohit-singh-yadav-8b2808297/" target="_blank"
+                                aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Designed & Built by Rohit Singh Yadav</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
